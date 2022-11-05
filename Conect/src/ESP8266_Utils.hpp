@@ -17,4 +17,3 @@ void ConnectWiFi_STA(){
   Serial.print("IP address:\t");
   Serial.println(WiFi.localIP());
 }
-void ConnectWiFi_STA()

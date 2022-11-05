@@ -3,12 +3,11 @@
 #include "ESP8266_Utils.hpp"
 
 
-void setup(){
+void setup()
+{
   Serial.begin(115200);
 
   ConnectWiFi_STA();
-
-
 }
 
 void loop(){
